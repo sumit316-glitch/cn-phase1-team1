@@ -1,0 +1,9 @@
+# Private keys must NEVER be committed
+*.key
+*.csr
+*.srl
+tls-keys.log
+*keylog*
+# macOS / editor noise
+.DS_Store
+node_modules/
